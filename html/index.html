@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+    <title>Orinoco || Site de vente d'ours en peluche faits à la main</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div>
+                    <a class="navbar-brand" href="index.html"><img src="/images/orinoco.png" width="140" height="auto"
+                            alt="Orinoco"></a>
+                </div>
+                <div class="align-self-center">
+                    <nav class="col navbar navbar-expand-lg navbar-dark h4">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="navbarContent" class="collapse navbar-collapse">
+                            <ul class="navbar-nav">
+                                <li>
+                                    <a class="nav-link" href="index.html">Accueil</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" id="lien-panier" href="#">Panier </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a type="button" class="btn btn-secondary btn-sm mt-2" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false" class="nav-link" href="#"><i
+                                            class="fas fa-shopping-basket"></i></a>
+                                    <div class="btn-group">
+                                        <div class="dropdown-menu dropdown-menu-right bg-dark text-light px-4 py-3 border-white"
+                                            id="dropdown">
+                                            <h3 class="text-center">Total</h3>
+                                            <table class="table border text-light table-sm text-center" id="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="border" scope="col">Nom</th>
+                                                        <th class="border" scope="col">Prix</th>
+                                                        <th class="border" scope="col">Couleur</th>
+                                                        <th class="border" scope="col">Qté</th>
+                                                        <th class="border" scope="col">Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="table-p">
+                                                </tbody>
+                                                <tbody>
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td class="border">Total:</td>
+                                                        <td id="prix-final"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <a class="btn btn-danger col-md-12" href="panier.html">Panier</a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-between">
+            <div class="col">
+                <div class="text-center mt-5">
+                    <h1>Bienvenue sur Orinoco</h1>
+                    <img src="../images/tenor (1).gif" alt="ours qui marche" class="col-md-1">
+                    <h2>Site de vente de Nounours</h2>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container bg-secondaire">
+        <div class="row d-flex justify-content-between" id="products">
+        </div>
+    </div>
+
+    </div>
+    <footer class="mt-5 pt-5 py-3 text-muted text-center text-small bg-dark">
+        <p class="mb-1">&copy; 2020 Orinoco | Jean-Sébastien DEHAUT</p>
+        <ul class="list-inline text-center">
+            <li class="list-inline-item"><a href="#">À propos</a></li>
+            <li class="list-inline-item">&middot;</li>
+            <li class="list-inline-item"><a href="#">Vie privée</a></li>
+            <li class="list-inline-item">&middot;</li>
+            <li class="list-inline-item"><a href="#">Conditions d'utilisations</a></li>
+        </ul>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="../javaScript/index.js"></script>
+    <script src="../javaScript/count.js"></script>
+</body>
+
+</html>

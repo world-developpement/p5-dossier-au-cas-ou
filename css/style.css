@@ -1,0 +1,52 @@
+  alert #overlay {
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    display: none;
+    padding: 0;
+  }
+
+  alert #alertPanel {
+    position: absolute;
+    top: 15rem;
+    min-height: 100%;
+    width: 100%;
+    z-index: 9999;
+    color: #000;
+    background-color: #eaeaea83;
+    display: none;
+    border-radius: 15px;
+    padding: -15px;
+  }
+
+  alert div.texte {
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0px 10px 0px;
+    word-wrap: break-word;
+  }
+
+  alert #alertPanel h3 {
+    border-radius: 15px 15px 0 0;
+    text-shadow: 2px 2px 2px #000;
+    margin: 0px;
+    background-color: #323232;
+    border: 2px solid #eaeaea83;
+    box-shadow: 0px 0px 8px #000;
+    color: #FFFFFF;
+  }
+
+  alert .bouton,
+  .bouton {
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px #000;
+  }
+
+  .img-accueil{
+    height: 250px;
+  }
